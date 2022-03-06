@@ -1,0 +1,437 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 430px;
+}
+
+ul li{
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 38px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: 1015px;
+    background: url("../img/парень.png") 90% 100%/auto 85% no-repeat, url("../img/фон.png")  ;
+}
+
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 402px;
+    color: #2c384a;
+    text-align: center;
+
+}
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4{
+    font-size: 22px;
+    margin-top: 30px;
+    color: #79818d;
+}
+
+.title__container input{
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    margin: 55px 14px 0px 14px;
+    padding: 0px 16px;
+    border: 2px solid #6d7682;
+    background: none;
+    color: #6d7682;
+    border-radius: 7px;
+}
+
+.myself {
+    width: 100%;
+    height: 716px;
+    background: #fcfdfd;
+}
+.title__container1{
+    width: 729px;
+    margin: 108px 594px 97px 596px;
+    text-align: center;
+
+}
+.title__container1 img{
+    display: block;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+.title__container1 h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    color: #263244;
+
+}
+
+.title__container1 p{
+    text-align: justify;
+    padding-bottom: 40px;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    color: #717883;
+}
+.title__container1 input{
+    padding-left: 20px;
+    border: 2px solid #6f707e;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 15px;
+}
+.title__container1 input[type="submit"] {
+    background:url("../img/иконка.png") no-repeat left;
+}
+.skills{
+    width: 100%;
+    height: 522px;
+    background: url("../img/картинка_фона.png") no-repeat center;
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    text-align: center;
+    color: #263244;
+    padding: 107px 0px 30px 0px;
+}
+
+.skills img[type="lol"]{
+    display: block;
+    margin: auto ;
+    padding-bottom: 108px;
+}
+.web, .develop, .CEO, .marketing{
+    display: inline-block;
+    width: 210px;
+    margin: 0px 41px 0px 41px;
+}
+
+.skills img[type="Z"]{
+    padding-bottom: 36px;
+}
+
+.skills h3{
+    font-size: 22px;
+    color: #cf7600;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+
+.skills p{
+    text-align: inherit;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    color: #3f495a;
+}
+
+.case{
+    width: 100%;
+    height: auto;
+}
+
+.case h2{
+    padding: 104px 0px 30px 0px;
+    font-size: 40px;
+    color: #384354;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title__container2>p{
+    padding: 36px 0px 39px 0px;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    color: #3f495a;
+    text-align: center;
+
+}
+
+.lol , #line{
+    display: block;
+    margin: auto;
+}
+
+#case{
+    display: block;
+}
+
+.inf_container{
+    width: 1169px;
+    height: 200px;
+    margin: 0px auto 0px auto;
+}
+
+.inf_container1{
+    width: 201px;
+    display: inline-block;
+    float: left;
+    margin-right: 83px;
+}
+
+.inf_container1 h3{
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #384354;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+
+.inf_container1 p{
+    font-family: Calibri , sans-serif;
+    font-size: 15px;
+    color: #3f495a;
+    padding-bottom: 14px;
+}
+
+.inf_container1 input{
+    width: 201px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 22px;
+    color: white;
+    background: #63b5ae;
+    border-radius: 5px;
+    padding: 15px 0px;
+}
+
+.inf_container2{
+    width: 884px;
+    display: inline-block;
+    float: left;
+}
+
+.inf_container2 h3{
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 25px;
+    color: #384354;
+    font-weight: bold;
+}
+
+.inf_container2 p{
+    margin-top: 6px;
+    font-family: Calibri , sans-serif;
+    font-size: 19px;
+    color: #3f495a;
+    text-align: justify;
+}
+
+.money{
+    width: 100%;
+    height: auto;
+}
+
+.money>h2{
+    margin-top: 200px;
+    padding-bottom: 5px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #1c2534;
+}
+
+.menu1{
+    width: 891px;
+    margin: auto;
+}
+
+.menu1 h2{
+    padding: 50px 0px 22px 0px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #1c2534;
+}
+
+.menu1 select{
+    width: 100%;
+    height: 57px;
+    background: #eeeeee;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    color: #737373;
+    padding: 20px;
+    line-height: 57px;
+}
+
+.payment{
+    width: 891px;
+    margin: 35px auto auto auto;
+    text-align: left;
+    border-top: 2px solid #d1d1d1;
+}
+
+.payment h3{
+    padding-top: 20px;
+    font-size: 22px;
+    color: #1c2534;
+    font-weight: bold;
+}
+
+.statistics{
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background: url("../img/фон_статистика.png") no-repeat center;
+    text-align: center;
+}
+
+.statistics h2{
+    font-family: "Franklin Gothic", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 103px 0px 32px 0px;
+}
+
+.block1,.block2,.block3,.block4{
+    display: inline-block;
+    margin: 108px 75px 0px 75px;
+}
+
+.statistics h3{
+    font-size: 18px;
+    font-family: "Franklin Gothic", sans-serif;
+    color: #323e4f;
+    margin: 32px 0px;
+}
+
+.t1{
+    font-family: "Franklin Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.reviews{
+    width: 100%;
+    height: 591px;
+    text-align: center;
+}
+.reviews h2{
+    margin: 105px 0px 34px 0px;
+    font-size: 40px;
+    color: #384354;
+    font-weight: bold;
+
+}
+img[type="man"]{
+    margin: 58px auto 34px auto;
+}
+.reviews p{
+    width: 688px;
+    margin: auto;
+    text-align: center;
+}
+.contacts{
+    width: 100%;
+    height: 810px;
+    background: url("../img/Фон_контакты.png") 90% 100%/auto auto no-repeat ;
+    text-align: center;
+}
+.contacts>h2{
+    padding: 105px 0px 34px 0px;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.contacts>p{
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 32px 0px 45px 0px;
+}
+.contacts1,.contacts2,.contacts3{
+    display: inline-block;
+    height: 72px;
+    width: 203px;
+    margin: auto;
+
+}
+.contacts1 p,.contacts2 p,.contacts3 p{
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+}
+.vanish{
+    visibility: hidden;
+}
+.message{
+    width: 750px;
+    margin: auto;
+}
+.message h2{
+    font-size: 28px;
+    font-family: "Franklin Gothic", sans-serif;
+    color: white;
+    margin: 39px 0px 46px 0px;
+
+}
+.message input{
+
+    width: 330px;
+    height: 34px;
+    margin: 0px 15px 0px 15px;
+    opacity: 0.7;
+}
+.message textarea{
+    margin: 15px 0px 28px 0px;
+    width: 695px;
+    height: 94px;
+    opacity: 0.7;
+}
+#button{
+    background: rgba(205, 214, 219, 0);
+    width: 125px;
+    color: white;
+    font-size: 16px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    border: 2px solid white;
+    padding: 0px 16px;
+    border-radius: 8px;
+}
+.contacts footer{
+    padding-top: 68px;
+}
+.f1,.f2,.f3,.f4,.f5,.f6{
+    margin: 0px 15px;
+}
+.google_maps iframe{
+    width: 100%;
+    height: 350px;
+}
+#footer{
+    height: 100px;
+    background: #2c3e51;
+}
+#footer p{
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
