@@ -6,6 +6,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
 }
 
 .logo{
@@ -14,11 +15,33 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
+    -webkit-animation: cumming 1s ease;
+    -o-animation: cumming 1s ease;
+    animation: cumming 1s ease;
 }
 
 .menu{
     float: left;
     padding-left: 430px;
+}
+
+.menu li a{
+    transition: all 0.5s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: #f78c1c;
+}
+
+.menu li a:active{
+    transform: scale(1.1);
 }
 
 ul li{
@@ -28,12 +51,31 @@ ul li{
     margin-right: 38px;
     font-size: 16px;
     text-transform: uppercase;
+    -webkit-animation: menu 0.5s ease forwards;
+    -o-animation: menu 0.5s ease forwards;
+    animation: menu 0.5s ease forwards;
+    opacity: 0;
+}
+ .menu li:nth-child(2){
+     animation-delay:0.4s ;
+ }
+.menu li:nth-child(3){
+    animation-delay:0.8s ;
+}
+.menu li:nth-child(4){
+    animation-delay:1.2s ;
+}
+.menu li:nth-child(5){
+    animation-delay:1.6s ;
+}
+.menu li:nth-child(6){
+    animation-delay:2.0s ;
 }
 
 .main{
     width: 100%;
     height: 1015px;
-    background: url("../img/Парень.png") 90% 100%/auto 85% no-repeat, url("../img/фон.png") no-repeat ;
+    background: url("../img/парень.png") 90% 100%/auto 85% no-repeat, url("../img/фон.png")  ;
 }
 
 .title__container{
@@ -41,6 +83,11 @@ ul li{
     margin: 432px 0px 0px 402px;
     color: #2c384a;
     text-align: center;
+    opacity: 0;
+    -webkit-animation:title_cnt 1s ease forwards;
+    -o-animation:title_cnt 1s ease forwards;
+    animation: title_cnt 1s ease forwards;
+    animation-delay: 2.2s;
 
 }
 .title__container h1{
@@ -63,6 +110,48 @@ ul li{
     background: none;
     color: #6d7682;
     border-radius: 7px;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title__container input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title__container input:active{
+    transform: scale(1.1);
+}
+
+@keyframes cumming {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes menu {
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+@keyframes title_cnt {
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 402px;
+    }
 }
 
 .myself {
@@ -102,9 +191,17 @@ ul li{
     border-radius: 6px;
     text-align: center;
     font-size: 15px;
+    transition: all 0.2s;
+    transform: scale(1);
 }
 .title__container1 input[type="submit"] {
     background:url("../img/иконка.png") no-repeat left;
+}
+.title__container1 input:hover{
+    box-shadow: 3px 3px 3px 3px grey ;
+}
+.title__container1 input:active{
+    transform: scale(1.1);
 }
 .skills{
     width: 100%;
@@ -434,4 +531,34 @@ img[type="man"]{
     line-height: 100px;
     color: white;
     font-family: Arial, sans-serif;
+}
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 128px;
+    height: 128px;
+    margin-top: -32px;
+    margin-left: -32px;
+    background: url('../img/preloader/Preloader_1.gif') no-repeat 60% 60%; /*расположение (url) изображения gif и др. параметры*/
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
 }
