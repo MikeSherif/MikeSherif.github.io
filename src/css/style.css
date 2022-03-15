@@ -223,7 +223,8 @@ ul li{
     height: 522px;
     background: url("../img/картинка_фона.png") no-repeat center ;
     text-align: center;
-
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .skills h2{
@@ -347,6 +348,13 @@ ul li{
     background: #63b5ae;
     border-radius: 5px;
     padding: 15px 0px;
+    transition: all 1s ease;
+}
+
+.inf_container1 input:hover{
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
 }
 
 .inf_container2{
