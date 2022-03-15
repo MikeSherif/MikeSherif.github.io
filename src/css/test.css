@@ -1,36 +1,18 @@
-body{
-    padding: 100px;
-    padding-left: 400px;
+.text-typing
+{
+    width: 40em;
+    color:green;
+    font-size: 22px;
+    font-family: 'Marck Script', cursive;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
 }
-.box span{
-    display: block;
-    text-align: center;
-    margin-top: 90px;
+@keyframes type{
+    from { width: 0; }
 }
-.box{
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    background: azure;
-    animation: move 1s alternate linear infinite, bg-color 2s infinite alternate;
 
-}
-@keyframes move {
-    0%{
-        margin-left: 0;
-    }
-    100%{
-        margin-left: 500px;
-    }
-}
-@keyframes bg-color {
-    from{
-        background: red;
-    }
-    to{
-        background: white;
-    }
-}
-.box:hover{
-    animation-play-state: paused;
+@-webkit-keyframes type{
+    from { width: 0; }
 }
