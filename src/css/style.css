@@ -244,9 +244,9 @@ ul li{
     display: inline-block;
     width: 210px;
     margin: 0px 41px 0px 41px;
-    -webkit-transition: all 0.3s ease;;
-    -moz-transition: all 0.3s ease;;
-    -o-transition: all 0.3s ease;;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 .web:hover, .develop:hover, .CEO:hover, .marketing:hover{
@@ -439,9 +439,9 @@ ul li{
 .block1,.block2,.block3,.block4{
     display: inline-block;
     margin: 108px 75px 0px 75px;
-    -webkit-transition: all 0.3s ease;;
-    -moz-transition: all 0.3s ease;;
-    -o-transition: all 0.3s ease;;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
