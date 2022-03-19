@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Franklin Gothic Medium';
+    src: url('../fonts/framd.eot');
+    src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     font-family: Arial, sans-serif;
 }
@@ -8,22 +15,30 @@ nav{
     background: #344051;
     position: fixed;
     z-index: 1000;
+
 }
 
 .logo{
     color: white;
     font-size: 28px;
     line-height: 60px;
-    padding-left: 388px;
     float: left;
     -webkit-animation: cumming 1s ease;
     -o-animation: cumming 1s ease;
     animation: cumming 1s ease;
+    font-family: "Franklin Gothic Medium" , sans-serif;
+}
+
+.white-btn:visited{
+    color: white;
+}
+
+.white-btn{
+    color: white;
 }
 
 .menu{
     float: left;
-    padding-left: 430px;
 }
 
 .menu li a{
@@ -31,6 +46,7 @@ nav{
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 
 .menu li a:visited{
@@ -46,6 +62,7 @@ nav{
 }
 
 ul li{
+    font-family: "Franklin Gothic Medium",sans-serif;
     float: left;
     line-height: 60px;
     color: white;
@@ -76,12 +93,12 @@ ul li{
 .main{
     width: 100%;
     height: 1015px;
-    background: url("../img/Парень.png") 90% 100%/auto 85% no-repeat, url("../img/фон.png") ;
+    background: url("../img/Парень.png") 90% 100%/auto 85% no-repeat, url("../img/фон.png") 100% 100%/100% 100% no-repeat;
 }
 
 .title__container{
     float: left;
-    margin: 432px 0px 0px 402px;
+    margin: 432px 0 0 402px;
     color: #2c384a;
     text-align: center;
     opacity: 0;
@@ -105,8 +122,8 @@ ul li{
     height: 40px;
     font-size: 15px;
     text-align: center;
-    margin: 55px 14px 0px 14px;
-    padding: 0px 16px;
+    margin: 55px 14px 0 14px;
+    padding: 0 16px;
     border: 2px solid #6d7682;
     background: none;
     color: #6d7682;
@@ -140,7 +157,7 @@ ul li{
     }
     to{
         opacity: 1;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -162,14 +179,14 @@ ul li{
 }
 .title__container1{
     width: 729px;
-    margin: 108px 594px 97px 596px;
+    margin: 1% auto;
     text-align: center;
 
 }
 .title__container1 img{
     display: block;
     margin: auto;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0 30px 0;
 }
 .title__container1 h2{
     font-size: 40px;
@@ -222,11 +239,12 @@ ul li{
 .skills{
     width: 100%;
     height: 522px;
-    background: url("../img/картинка_фона.png") no-repeat center ;
+    background: url("../img/картинка_фона.png") no-repeat center fixed;
     text-align: center;
-    background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 .skills h2{
     font-size: 40px;
@@ -234,7 +252,7 @@ ul li{
     font-family: "Franklin Gothic Medium", sans-serif;
     text-align: center;
     color: #263244;
-    padding: 107px 0px 30px 0px;
+    padding: 107px 0 30px 0;
 }
 
 .skills img[type="lol"]{
@@ -245,7 +263,7 @@ ul li{
 .web, .develop, .CEO, .marketing{
     display: inline-block;
     width: 210px;
-    margin: 0px 41px 0px 41px;
+    margin: 0 41px 0 41px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -287,7 +305,7 @@ ul li{
 }
 
 .case h2{
-    padding: 104px 0px 30px 0px;
+    padding: 104px 0 30px 0;
     font-size: 40px;
     color: #384354;
     font-weight: bold;
@@ -295,7 +313,7 @@ ul li{
 }
 
 .title__container2>p{
-    padding: 36px 0px 39px 0px;
+    padding: 36px 0 39px 0;
     font-family: Calibri, sans-serif;
     font-size: 18px;
     color: #3f495a;
@@ -315,7 +333,7 @@ ul li{
 .inf_container{
     width: 1169px;
     height: 200px;
-    margin: 0px auto 0px auto;
+    margin: 0 auto 0 auto;
 }
 
 .inf_container1{
@@ -348,7 +366,7 @@ ul li{
     color: white;
     background: #63b5ae;
     border-radius: 5px;
-    padding: 15px 0px;
+    padding: 15px 0;
     transition: all 1s ease;
 }
 
@@ -399,7 +417,7 @@ ul li{
 }
 
 .menu1 h2{
-    padding: 50px 0px 22px 0px;
+    padding: 50px 0 22px 0;
     font-family: "Franklin Gothic Medium", sans-serif;
     font-size: 30px;
     text-align: left;
@@ -442,12 +460,12 @@ ul li{
     font-family: "Franklin Gothic", sans-serif;
     font-size: 40px;
     text-transform: uppercase;
-    padding: 103px 0px 32px 0px;
+    padding: 103px 0 32px 0;
 }
 
 .block1,.block2,.block3,.block4{
     display: inline-block;
-    margin: 108px 75px 0px 75px;
+    margin: 108px 75px 0 75px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -471,7 +489,7 @@ ul li{
     font-size: 18px;
     font-family: "Franklin Gothic", sans-serif;
     color: #323e4f;
-    margin: 32px 0px;
+    margin: 32px 0;
 }
 
 .t1{
@@ -486,7 +504,7 @@ ul li{
     text-align: center;
 }
 .reviews h2{
-    margin: 105px 0px 34px 0px;
+    margin: 105px 0 34px 0;
     font-size: 40px;
     color: #384354;
     font-weight: bold;
@@ -507,7 +525,7 @@ img[type="man"]{
     text-align: center;
 }
 .contacts>h2{
-    padding: 105px 0px 34px 0px;
+    padding: 105px 0 34px 0;
     font-size: 40px;
     font-family: "Franklin Gothic Medium", sans-serif;
     color: white;
@@ -517,7 +535,7 @@ img[type="man"]{
     font-family: Calibri, sans-serif;
     color: white;
     font-size: 15px;
-    padding: 32px 0px 45px 0px;
+    padding: 32px 0 45px 0;
 }
 .contacts1,.contacts2,.contacts3{
     display: inline-block;
@@ -543,18 +561,18 @@ img[type="man"]{
     font-size: 28px;
     font-family: "Franklin Gothic", sans-serif;
     color: white;
-    margin: 39px 0px 46px 0px;
+    margin: 39px 0 46px 0;
 
 }
 .message input{
 
     width: 330px;
     height: 34px;
-    margin: 0px 15px 0px 15px;
+    margin: 0 15px 0 15px;
     opacity: 0.7;
 }
 .message textarea{
-    margin: 15px 0px 28px 0px;
+    margin: 15px 0 28px 0;
     width: 695px;
     height: 94px;
     opacity: 0.7;
@@ -566,7 +584,7 @@ img[type="man"]{
     font-size: 16px;
     font-family: "Franklin Gothic Medium", sans-serif;
     border: 2px solid white;
-    padding: 0px 16px;
+    padding: 0 16px;
     border-radius: 8px;
     transition: all 1s ease;
     transform: scale(1);
@@ -583,7 +601,7 @@ img[type="man"]{
     padding-top: 68px;
 }
 .f1,.f2,.f3,.f4,.f5,.f6{
-    margin: 0px 15px;
+    margin: 0 15px;
 }
 .google_maps iframe{
     width: 100%;
@@ -628,4 +646,8 @@ img[type="man"]{
 
 .loaded .preloader {
     display: none;
+}
+
+.custom-css3{
+    font-size: 40px;
 }
