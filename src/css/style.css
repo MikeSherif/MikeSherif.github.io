@@ -98,7 +98,7 @@ ul li{
 
 .title__container{
     float: left;
-    margin: 432px 0 0 402px;
+    width: 100%;
     color: #2c384a;
     text-align: center;
     opacity: 0;
@@ -109,7 +109,8 @@ ul li{
 
 }
 .title__container h1{
-    font-size: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 70px;
     font-weight: bold;
 }
 .title__container h4{
@@ -168,7 +169,7 @@ ul li{
     }
     to{
         opacity: 1;
-        margin-left: 402px;
+        margin-left: 0;
     }
 }
 
@@ -331,16 +332,16 @@ ul li{
 }
 
 .inf_container{
-    width: 1169px;
+
     height: 200px;
     margin: 0 auto 0 auto;
 }
 
 .inf_container1{
-    width: 201px;
+
     display: inline-block;
     float: left;
-    margin-right: 83px;
+
 }
 
 .inf_container1 h3{
@@ -377,7 +378,7 @@ ul li{
 }
 
 .inf_container2{
-    width: 884px;
+
     display: inline-block;
     float: left;
 }
@@ -650,4 +651,28 @@ img[type="man"]{
 
 .custom-css3{
     font-size: 40px;
+}
+
+@media (max-width: 991px){
+    .title__container , .title__container h4, .title__container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .title__container input{
+        border: 2px solid white;
+        border-radius: 7px;
+    }
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+    }
 }
