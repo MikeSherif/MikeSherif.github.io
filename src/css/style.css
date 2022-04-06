@@ -650,12 +650,34 @@ img[type="man"]{
 .custom-css3{
     font-size: 40px;
 }
-@media (max-width: 620px){
+@media (max-width: 768px){
     .contacts1,.contacts2,.contacts3{
         display: none;
     }
     .myself{
         height: 800px;
+    }
+    .myself p{
+        font-size: 15px;
+    }
+    .money h2{
+        font-size: 15px;
+    }
+    .inf_container2{
+        display: none;
+    }
+    .payment h3{
+        font-size: 15px;
+    }
+    .reviews p{
+        font-size: 10px;
+    }
+    .message h2{
+        font-size: 20px;
+    }
+    .message input{
+        width: 100%;
+        margin-top: 10px;
     }
 }
 @media (max-width:609px ){
