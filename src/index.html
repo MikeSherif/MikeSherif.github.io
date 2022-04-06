@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta property="og:title" content="">
     <title>Mike Sherry - Веб разработчик</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -140,7 +141,7 @@
         </div>
         <img src="img/кейсы.png"  class="img-fluid" alt="Ой,картинка пропала!" id="case">
         <div class="inf_container">
-            <div class="container h-100 w-100">
+            <div class="container h-100 w-100 mt-5">
                 <div class="row justify-content-between">
                     <div class="col-2">
                         <div class="inf_container1 d-flex flex-column ">
@@ -166,41 +167,43 @@
     </div>
 
     <div class="money">
-        <h2>Расчет стоимости</h2>
-        <div class="menu1">
-            <h2>ТИП САЙТА</h2>
-            <form action="#">
-            <select name="list1" id="list1" >
-                <option value="">Выберите пункт...</option>
-                <option value="Opt1">Option 1</option>
-                <option value="Opt2">Option 2</option>
-                <option value="Opt3">Option 3</option>
-                <option value="Opt4">Option 4</option>
-            </select>
-            </form>
-            <h2>ДИЗАЙН</h2>
-            <form action="#">
-                <select name="list1" id="list2" >
+        <div class="shmoney">
+            <h2>Расчет стоимости</h2>
+            <div class="menu1">
+                <h2>ТИП САЙТА</h2>
+                <form action="#">
+                <select name="list1" id="list1" >
                     <option value="">Выберите пункт...</option>
                     <option value="Opt1">Option 1</option>
                     <option value="Opt2">Option 2</option>
                     <option value="Opt3">Option 3</option>
                     <option value="Opt4">Option 4</option>
                 </select>
-            </form>
-            <h2>АДАПТИВНОСТЬ</h2>
-            <form action="#">
-                <select name="list1" id="list3" >
-                    <option value="">Выберите пункт...</option>
-                    <option value="Opt1">Option 1</option>
-                    <option value="Opt2">Option 2</option>
-                    <option value="Opt3">Option 3</option>
-                    <option value="Opt4">Option 4</option>
-                </select>
-            </form>
-        </div>
-        <div class="payment">
-            <h3>Сроки</h3> <br> <h3>Стоимость</h3>
+                </form>
+                <h2>ДИЗАЙН</h2>
+                <form action="#">
+                    <select name="list1" id="list2" >
+                        <option value="">Выберите пункт...</option>
+                        <option value="Opt1">Option 1</option>
+                        <option value="Opt2">Option 2</option>
+                        <option value="Opt3">Option 3</option>
+                        <option value="Opt4">Option 4</option>
+                    </select>
+                </form>
+                <h2>АДАПТИВНОСТЬ</h2>
+                <form action="#">
+                    <select name="list1" id="list3" >
+                        <option value="">Выберите пункт...</option>
+                        <option value="Opt1">Option 1</option>
+                        <option value="Opt2">Option 2</option>
+                        <option value="Opt3">Option 3</option>
+                        <option value="Opt4">Option 4</option>
+                    </select>
+                </form>
+            </div>
+            <div class="payment">
+                <h3>Сроки</h3> <br> <h3>Стоимость</h3>
+            </div>
         </div>
     </div>
     <div class="statistics">
@@ -296,6 +299,7 @@
             }, 500);
         }
     </script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/myScript.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
